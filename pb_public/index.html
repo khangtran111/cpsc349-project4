@@ -17,25 +17,26 @@
 </head>
 
 <body>
-    <div id="root"></div>
+    <div id ="root"></div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <div class="container">
-<!-- <a href="login.html">About</a> -->
-      <div class="theApp">
-            <h1> To-do List</h1>
-            <div class="inputContents">
-              <form action="">
-                <input type="text" class="textField" placeholder="Enter a ToDo..." />
-                <button  class="addTask"><i class="fas fa-plus-square"></i></button>
-              </form>
-            </div>
-            <div class="outputElements">
-              <ul class="Tasks"></ul>
-            </div>
-          </div>
-          <script src="./app.js"></script>
-          <script type="module" src="main.js"></script>
-</body>
 
-</html>
+    <div class = "SignUp">
+        <div class = "signupContents">
+          <form action="" class="signupform">
+            <h1 class="signuptitle"> Sign Up Here</h1>
+            <label for="email">Create Email</label>
+            <input type = "email" class="emailField" placeholder="Create Email"/>
+            <label for="password">Create Password</label>
+            <input type = "password" class="passwordField" placeholder="Create Password"/>
+            <label class = "passwordchecking"> Must be 8 or more characters long </p>
+            <label for="password">Confirm Password</label>
+            <input type = "password" class="confirmPassword" placeholder="Confirm Password"/>
+            <button class="signupUser">Sign Up</i></button>
+          </form>
+        </div>
+    </div>
+
+    <script src="./app.js"> </script>
+    <script type="module" src="signuppage.js"></script>
+</body>

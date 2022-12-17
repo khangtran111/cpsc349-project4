@@ -150,6 +150,13 @@ label{
     font-weight: 500;
 }
 
+.passwordchecking{
+    display: block;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 .logintitle{
   font-size: 32px;
   font-weight: 500;
